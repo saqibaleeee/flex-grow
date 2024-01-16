@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        .container{ background-color: aqua; display: flex; gap: 10px;}
+
+        .container div{
+            width: 300px;
+        }
+        .div1{ background-color: rgb(124, 84, 91);}
+        .div2{background-color:rgb(71, 60, 221); }
+        .div3{background-color:rgb(221, 24, 57); }
+        .div1{flex-shrink: 3;}
+        .div2{flex-shrink: 1;}
+        .div3{flex-shrink: 4;}
+        .content{background-color: bisque;display: flex; gap: 10px;} 
+        .cont1{background-color: rgb(170, 61, 14);}
+        .cont1{background-color: burlywood;}
+        .cont1{background-color: chartreuse;}
+
+       
+    </style>
+</head>
+<body>
+  <div class="container">
+  <div class="div1">div1</div>  
+  <div class="div2">div2</div>  
+  <div class="div3">div3</div>  
+</div>
+<div class="content">
+    <div class="cont1">cont1</div>
+    <div class="cont2">cont2</div>
+    <div class="cont3">cont3</div>
+</div>
+</body>
+</html>
